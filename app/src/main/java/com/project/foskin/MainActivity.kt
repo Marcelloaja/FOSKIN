@@ -1,4 +1,4 @@
-package com.example.foskin
+package com.project.foskin
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -7,7 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.foskin.databinding.ActivityMainBinding
+import com.project.foskin.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

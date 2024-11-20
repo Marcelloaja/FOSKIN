@@ -1,4 +1,4 @@
-package com.example.foskin.ui.dashboard
+package com.project.foskin.ui.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

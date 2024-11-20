@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.foskin"
-    compileSdk = 35
+    namespace = "com.project.foskin"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.foskin"
-        minSdk = 21
+        applicationId = "com.project.foskin"
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

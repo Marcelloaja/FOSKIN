@@ -1,4 +1,4 @@
-package com.example.foskin.ui.notifications
+package com.project.foskin.ui.notifications
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

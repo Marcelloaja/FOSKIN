@@ -1,4 +1,4 @@
-package com.example.foskin
+package com.project.foskin
 
 import org.junit.Test
 
