@@ -2,8 +2,7 @@
 <MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:motion="http://schemas.android.com/apk/res-auto"
     xmlns:app="urn:oasis:names:tc:xliff:document:1.2">
-    <ConstraintSet
-        android:id="@+id/menu1">
+    <ConstraintSet android:id="@+id/menu1">
         <Constraint
             android:id="@+id/logoMenu1"
             android:layout_width="0dp"
@@ -76,15 +75,12 @@
             motion:layout_constraintTop_toBottomOf="@+id/descMenu1" />
     </ConstraintSet>
     <Transition
-    motion:constraintSetEnd="@+id/menu2"
-    motion:constraintSetStart="@+id/menu1">
-    <OnSwipe motion:dragDirection="dragLeft" />
-    <OnClick
-        app:targetId="@id/btnNext"
-        app:action="transitionToEnd" />
-</Transition>
-    <ConstraintSet
-        android:id="@+id/menu2"
+        motion:constraintSetEnd="@+id/menu2"
+        motion:constraintSetStart="@+id/menu1">
+        <OnSwipe motion:dragDirection="dragLeft" />
+        <OnClick app:targetId="@id/btnNext" app:action="transitionToEnd" />
+    </Transition>
+    <ConstraintSet android:id="@+id/menu2"
         motion:deriveConstraintsFrom="@+id/menu1">
         <Constraint
             android:id="@+id/logoMenu1"
@@ -179,15 +175,12 @@
             motion:layout_constraintTop_toBottomOf="@+id/descMenu2" />
     </ConstraintSet>
     <Transition
-        motion:constraintSetEnd="@+id/menu2"
-        motion:constraintSetStart="@+id/end">
+        motion:constraintSetEnd="@+id/menu3"
+        motion:constraintSetStart="@+id/menu2">
         <OnSwipe motion:dragDirection="dragLeft" />
-        <OnClick
-            app:targetId="@id/btnNext2"
-            app:action="transitionToEnd" />
+        <OnClick app:targetId="@id/btnNext2" app:action="transitionToEnd" />
     </Transition>
-    <ConstraintSet
-        android:id="@+id/menu3"
+    <ConstraintSet android:id="@+id/menu3"
         motion:deriveConstraintsFrom="@+id/menu2">
         <Constraint
             android:id="@+id/logoMenu2"
@@ -289,8 +282,6 @@
         motion:constraintSetEnd="@+id/menu3"
         motion:constraintSetStart="@+id/menu2">
         <OnSwipe motion:dragDirection="dragLeft" />
-        <OnClick
-            app:targetId="@id/btnStarted"
-            app:action="startActivity" />
+        <OnClick app:targetId="@id/btnStarted" app:action="startActivity" />
     </Transition>
 </MotionScene>
