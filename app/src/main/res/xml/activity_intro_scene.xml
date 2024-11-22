@@ -20,9 +20,10 @@
             android:padding="16dp">
             <Constraint
                 android:id="@+id/menu1"
-                android:layout_width="130dp"
+                android:layout_width="125dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="36dp"
+                android:layout_marginStart="16dp"
                 motion:layout_constraintBottom_toTopOf="@+id/logoMenu1"
                 motion:layout_constraintEnd_toStartOf="@+id/menu2"
                 motion:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,7 @@
             </Constraint>
             <Constraint
                 android:id="@+id/menu2"
-                android:layout_width="130dp"
+                android:layout_width="125dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="36dp"
                 motion:layout_constraintBottom_toTopOf="@+id/logoMenu1"
@@ -47,9 +48,10 @@
             </Constraint>
             <Constraint
                 android:id="@+id/menu3"
-                android:layout_width="130dp"
+                android:layout_width="125dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="36dp"
+                android:layout_marginEnd="16dp"
                 motion:layout_constraintBottom_toTopOf="@+id/logoMenu1"
                 motion:layout_constraintEnd_toEndOf="parent"
                 motion:layout_constraintStart_toEndOf="@+id/menu2"
@@ -64,8 +66,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="40dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginTop="40dp"
             android:alpha="1"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
@@ -102,9 +104,10 @@
             android:padding="16dp">
             <Constraint
                 android:id="@+id/menu1"
-                android:layout_width="130dp"
+                android:layout_width="125dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="36dp"
+                android:layout_marginStart="16dp"
                 motion:layout_constraintBottom_toTopOf="@+id/logoMenu2"
                 motion:layout_constraintEnd_toStartOf="@+id/menu2"
                 motion:layout_constraintStart_toStartOf="parent"
@@ -115,7 +118,7 @@
             </Constraint>
             <Constraint
                 android:id="@+id/menu2"
-                android:layout_width="130dp"
+                android:layout_width="125dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="36dp"
                 motion:layout_constraintBottom_toTopOf="@+id/logoMenu2"
@@ -129,9 +132,10 @@
             </Constraint>
             <Constraint
                 android:id="@+id/menu3"
-                android:layout_width="130dp"
+                android:layout_width="125dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="36dp"
+                android:layout_marginEnd="16dp"
                 motion:layout_constraintBottom_toTopOf="@+id/logoMenu2"
                 motion:layout_constraintEnd_toEndOf="parent"
                 motion:layout_constraintStart_toEndOf="@+id/menu2"
@@ -146,8 +150,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="40dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginTop="40dp"
             android:alpha="1"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
@@ -190,9 +194,10 @@
 
             <Constraint
                 android:id="@+id/menu1"
-                android:layout_width="130dp"
+                android:layout_width="125dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="36dp"
+                android:layout_marginStart="16dp"
                 motion:layout_constraintBottom_toTopOf="@+id/logoMenu3"
                 motion:layout_constraintEnd_toStartOf="@+id/menu2"
                 motion:layout_constraintStart_toStartOf="parent"
@@ -204,7 +209,7 @@
 
             <Constraint
                 android:id="@+id/menu2"
-                android:layout_width="130dp"
+                android:layout_width="125dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="36dp"
                 motion:layout_constraintBottom_toTopOf="@+id/logoMenu3"
@@ -219,9 +224,10 @@
 
             <Constraint
                 android:id="@+id/menu3"
-                android:layout_width="130dp"
+                android:layout_width="125dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="36dp"
+                android:layout_marginEnd="16dp"
                 motion:layout_constraintBottom_toTopOf="@+id/logoMenu3"
                 motion:layout_constraintEnd_toEndOf="parent"
                 motion:layout_constraintStart_toEndOf="@+id/menu2"
@@ -237,8 +243,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="40dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginTop="40dp"
             android:alpha="0"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
@@ -248,8 +254,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="40dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginTop="40dp"
             android:alpha="1"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
