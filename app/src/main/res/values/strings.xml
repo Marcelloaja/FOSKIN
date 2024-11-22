@@ -7,4 +7,14 @@
     <string name="title_detect">Detect\n</string>
     <string name="title_message">Message</string>
     <string name="title_profile">Profile</string>
+
+    <!--introduction-->
+    <string name="title_menu_1">Unlock Your Skin’s Story with AI Acne Detection!</string>
+    <string name="title_menu_2">Expert Guidance: Get Tailored Articles and Skincare Tips!</string>
+    <string name="title_menu_3">Stay on Track: Personalized Daily Skincare Reminders!</string>
+    <string name="desc_menu_1">Unlock your skin’s secrets with advanced AI that detects acne with precision. Receive a personalized analysis for a glowing future.</string>
+    <string name="desc_menu_2">Get expert articles and tailored skincare advice to make informed choices for healthier, clearer skin.</string>
+    <string name="desc_menu_3">Stay on track with your skincare routine with personalized reminders, helping you build healthy habits for long-term skin health.</string>
+    <string name="started">Get Started</string>
+    <string name="next">Next</string>
 </resources>
