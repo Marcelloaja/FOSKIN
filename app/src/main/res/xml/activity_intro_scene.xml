@@ -75,8 +75,8 @@
             motion:layout_constraintTop_toBottomOf="@+id/descMenu1" />
     </ConstraintSet>
     <Transition
-        motion:constraintSetEnd="@+id/menu2"
-        motion:constraintSetStart="@+id/menu1">
+        motion:constraintSetStart="@id/menu1"
+        motion:constraintSetEnd="@id/menu2">
         <OnSwipe motion:dragDirection="dragLeft" />
         <OnClick app:targetId="@id/btnNext" app:action="transitionToEnd" />
     </Transition>
@@ -175,8 +175,8 @@
             motion:layout_constraintTop_toBottomOf="@+id/descMenu2" />
     </ConstraintSet>
     <Transition
-        motion:constraintSetEnd="@+id/menu3"
-        motion:constraintSetStart="@+id/menu2">
+        motion:constraintSetStart="@id/menu2"
+        motion:constraintSetEnd="@id/menu3">
         <OnSwipe motion:dragDirection="dragLeft" />
         <OnClick app:targetId="@id/btnNext2" app:action="transitionToEnd" />
     </Transition>

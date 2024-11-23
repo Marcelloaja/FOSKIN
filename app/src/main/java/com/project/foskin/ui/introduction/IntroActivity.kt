@@ -2,6 +2,7 @@ package com.project.foskin.ui.introduction
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -28,6 +29,7 @@ class IntroActivity : AppCompatActivity() {
         }
 
         btnNext2.setOnClickListener {
+            motionLayout.setTransition(R.id.menu2, R.id.menu3)
             motionLayout.transitionToEnd()
         }
 
