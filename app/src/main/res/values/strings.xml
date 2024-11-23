@@ -8,7 +8,7 @@
     <string name="title_message">Message</string>
     <string name="title_profile">Profile</string>
 
-    <!--introduction-->
+    <!-- Introduction -->
     <string name="title_menu_1">Unlock Your Skin’s Story with AI Acne Detection!</string>
     <string name="title_menu_2">Expert Guidance: Get Tailored Articles and Skincare Tips!</string>
     <string name="title_menu_3">Stay on Track: Personalized Daily Skincare Reminders!</string>
@@ -17,4 +17,14 @@
     <string name="desc_menu_3">Stay on track with your skincare routine with personalized reminders, helping you build healthy habits for long-term skin health.</string>
     <string name="started">Get Started</string>
     <string name="next">Next</string>
+
+    <!-- Auth -->
+    <string name="title_quick_survey1">Let us know more about you!</string>
+    <string name="title_quick_survey2">What is your current skin condition?</string>
+    <string name="alert_quick_survey">You can change this data in your profile</string>
+    <string name="who_name_quick_survey">What’s your name?</string>
+    <string name="who_email_quick_survey">What’s your email?</string>
+    <string name="who_age_quick_survey">How old are you?</string>
+    <string name="who_gender_quick_survey">What is your gender?</string>
+
 </resources>

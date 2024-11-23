@@ -2,14 +2,12 @@ package com.project.foskin.ui.introduction
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.motion.widget.MotionLayout
-import androidx.core.content.ContextCompat
-import com.project.foskin.MainActivity
 import com.project.foskin.R
+import com.project.foskin.ui.Auth.QuickSurveyActivity
 
 class IntroActivity : AppCompatActivity() {
 
@@ -35,7 +33,7 @@ class IntroActivity : AppCompatActivity() {
         }
 
         btnStarted.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, QuickSurveyActivity::class.java))
             finish()
         }
     }
