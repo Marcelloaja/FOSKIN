@@ -1,26 +1,18 @@
 package com.project.foskin.ui.shop
 
-import androidx.fragment.app.viewModels
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.project.foskin.R
+import com.project.foskin.databinding.FragmentShopBinding
 
 class ShopFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = ShopFragment()
-    }
+    private var _binding: FragmentShopBinding? = null
 
-    private val viewModel: ShopViewModel by viewModels()
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        // TODO: Use the ViewModel
-    }
+    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
