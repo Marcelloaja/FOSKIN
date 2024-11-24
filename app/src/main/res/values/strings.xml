@@ -27,4 +27,10 @@
     <string name="who_age_quick_survey">How old are you?</string>
     <string name="who_gender_quick_survey">What is your gender?</string>
 
+    <!-- Shop -->
+    <string name="promo_month">November Promo</string>
+    <string name="persentase_promo">-45%</string>
+    <string name="btn_promo">Check Now</string>
+    <string name="desc_promo">The FOSKIN 90% Centella Asiatica Extract</string>
+
 </resources>
