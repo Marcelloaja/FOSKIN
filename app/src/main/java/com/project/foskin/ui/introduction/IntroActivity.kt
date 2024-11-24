@@ -33,7 +33,7 @@ class IntroActivity : AppCompatActivity() {
         }
 
         btnStarted.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, QuickSurveyActivity::class.java))
             finish()
         }
     }
